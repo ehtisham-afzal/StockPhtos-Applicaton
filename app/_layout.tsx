@@ -41,12 +41,12 @@ export default function RootLayout() {
       config={config}
       defaultTheme={colorScheme === "dark" ? "dark" : "light"}
     >
-      <Theme name={colorScheme === "dark" ? "dark_orange" : "orange"}>
+      <Theme name={colorScheme === "dark" ? "dark_orange" :"orange"}>
         {/* <ThemeProvider
           value={colorScheme === "dark" ? DarkTheme : DefaultTheme}
         > */}
           <Stack>
-            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="(tabs)" options={{ headerShown: false  }} />
             <Stack.Screen name="+not-found" />
           </Stack>
         {/* </ThemeProvider> */}

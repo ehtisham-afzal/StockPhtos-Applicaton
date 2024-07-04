@@ -1,7 +1,5 @@
-import { ThemedText } from "@/components/ThemedText";
-import { ThemedView } from "@/components/ThemedView";
 import { Alert, StyleSheet } from "react-native";
-import { Button, Text, Theme, View } from "tamagui";
+import { Button, Text, View } from "tamagui";
 
 export default function Custom() {
     return (
